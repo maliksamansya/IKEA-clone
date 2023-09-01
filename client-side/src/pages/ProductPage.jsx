@@ -47,7 +47,7 @@ function ProductPage() {
         </div>
       ) : (
         <>
-          <div className="bg-white p-6">
+          <div className="bg-white mx-24">
             <div
               className="bg-cover bg-center mt-10"
               style={{

@@ -27,7 +27,7 @@ const Navbar = () => {
         isScrolled ? "shadow-lg" : ""
       }`}
     >
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+      <div className="flex items-center justify-between mx-24 px-4 py-2">
         <Link to="/" className="text-xl font-bold">
           <img
             src="https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/logos/IKEA_logo.svg"
@@ -37,11 +37,12 @@ const Navbar = () => {
         </Link>
 
         {/* Search bar */}
-        <div className="flex-1 mx-4">
+        <div className="group flex flex-row items-center justify-center space-x-3 mx-4 w-full px-3 py-1 border border-gray-300 rounded-l-full rounded-r-full focus:outline-none focus:border-blue-500">
+          <img src="/search.svg" alt="" className="w-4 h-4" />
           <input
             type="text"
             placeholder="Search"
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full h-full px-3 py-1 focus:outline-none"
           />
         </div>
 
