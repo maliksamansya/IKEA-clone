@@ -1,10 +1,10 @@
 # IKEA Clone
 
-This is the "Park Sini" website. This website offers users the opportunity to rent parking spaces, thereby reducing vehicles parked haphazardly on the roadside and alleviating traffic congestion.
+A mobile and web based application to display brand.
 
 ## Link Live demo
 
-https://parkir-sini.web.app/
+-
 
 ### Dashboard
 
